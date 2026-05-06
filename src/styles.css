@@ -2762,7 +2762,7 @@ small,
   color: #fff;
 }
 
-.motion-item {
+.js-ready .motion-item {
   opacity: 0;
   transition:
     opacity 1500ms cubic-bezier(0.16, 1, 0.3, 1),
@@ -2770,11 +2770,11 @@ small,
   will-change: opacity, transform;
 }
 
-.motion-text {
+.js-ready .motion-text {
   transform: translate3d(0, 54px, 0);
 }
 
-.motion-media {
+.js-ready .motion-media {
   transform: translate3d(0, 78px, 0) scale(0.985);
   transform-origin: center bottom;
 }
@@ -2784,7 +2784,7 @@ small,
   transform: none;
 }
 
-.motion-stagger > * {
+.js-ready .motion-stagger > * {
   opacity: 0;
   transform: translate3d(0, 58px, 0);
   transition:
